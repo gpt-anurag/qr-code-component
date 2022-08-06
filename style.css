@@ -30,13 +30,12 @@
   background: var(--primary-clr);
   height: min-content;
   width: min-content;
-  /* border: 1px solid red; */
   border-radius: 15px;
   padding: 7px;
 
-  -webkit-box-shadow: 15px 18px 72px -22px rgba(0, 0, 0, 0.39);
-  -moz-box-shadow: 15px 18px 72px -22px rgba(0, 0, 0, 0.39);
-  box-shadow: 15px 18px 72px -22px rgba(0, 0, 0, 0.39);
+  -webkit-box-shadow: 7px 10px 22px 8px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 7px 10px 22px 8px rgba(0, 0, 0, 0.11);
+  box-shadow: 7px 10px 22px 8px rgba(0, 0, 0, 0.11);
 }
 
 .qr-image > img {
@@ -50,6 +49,7 @@
   font-family: var(--ff);
   font-size: var(--fs-p);
   padding: 10px 20px;
+  padding-bottom: 20px;
 }
 
 .qr-info > h1 {
@@ -61,6 +61,4 @@
 .qr-info > p {
   color: var(--clr-grayish-blue);
   font-weight: var(--fw-400);
-  margin-bottom: 20px;
-  /* padding: 0 14px; */
 }
