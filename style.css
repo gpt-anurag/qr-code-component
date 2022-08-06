@@ -61,5 +61,6 @@
 .qr-info > p {
   color: var(--clr-grayish-blue);
   font-weight: var(--fw-400);
+  margin-bottom: 20px;
   /* padding: 0 14px; */
 }
